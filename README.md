@@ -77,9 +77,9 @@ This moves starter code to `app-example/` and creates a fresh `app/` directory.
 
 ## 🌐 Connect with Us
 
-- GitHub Repo: [https://github.com/yourusername/pacebeats](https://github.com/yourusername/pacebeats)
-- LinkedIn: [Ken Patrick Garcia](https://linkedin.com/in/kenpatrickgarcia)
-- Contributors: Ken Garcia, Timothy Forte, Mars Maguddayao, Lanz Corpuz, Brian Ashley
+- GitHub Repo: [https://github.com/KpG782/pacebeats](https://github.com/KpG782/Pacebeats)
+- LinkedIn: [Ken Patrick Garcia](https://www.linkedin.com/in/ken-patrick-garcia-ba5430285/)
+- Contributors: Ken Garcia, Timothy Forte, Lanz Corpuz, Brian Ashley
 
 ---
 

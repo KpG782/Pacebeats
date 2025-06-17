@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativewind-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +16,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KpG782&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KpG782/Pacebeats&quot;,
+    &quot;accountId&quot;: &quot;704e9767-38c6-49f4-bbb0-77d1d90ae944&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ydkWCoUxW4uWcuVcRLiDyMZdy2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,11 +43,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Ken/Desktop/Pacebeats",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "ts.external.directory.path": "C:\\Users\\Ken\\Desktop\\Pacebeats\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -63,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750171867211</updated>
-      <workItem from="1750171868578" duration="2738000" />
+      <workItem from="1750171868578" duration="3305000" />
+      <workItem from="1750175311751" duration="32000" />
     </task>
     <servers />
   </component>
