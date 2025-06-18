@@ -8,28 +8,42 @@ import {
     StyleSheet,
     Dimensions,
 } from 'react-native'
+import Runner from '../../assets/runner.png'
 
-const { width } = Dimensions.get('window')
-const STRIPE_COUNT = 5
-const STRIPE_WIDTH = width / (STRIPE_COUNT + 1)  // adjust to taste
+const { width }       = Dimensions.get('window')
+const H_PAD           = 24
+const CONTAINER_WIDTH = width - H_PAD * 2
+const STRIPE_COUNT    = 4
+const STRIPE_WIDTH    = CONTAINER_WIDTH / (STRIPE_COUNT + 1)
+const SHORT_HEIGHT    = STRIPE_WIDTH * 2.5
+const LONG_HEIGHT     = STRIPE_WIDTH * 3.5
+const CONTAINER_HEIGHT= LONG_HEIGHT
 
 export default function LandingPage() {
     return (
         <SafeAreaView style={styles.container}>
-            <View style={styles.stripesContainer}>
-                {Array.from({ length: STRIPE_COUNT }).map((_, i) => (
-                    <View key={i} style={styles.stripeWrapper}>
-                        <Image
-                            source={require('../assets/runner.jpg')}
-                            style={[
-                                styles.image,
-                                // shift the image left so each stripe shows a different slice
-                                { left: -i * (STRIPE_WIDTH * 0.8) },
-                            ]}
-                            resizeMode="cover"
-                        />
-                    </View>
-                ))}
+            <View style={[styles.stripesContainer, { height: CONTAINER_HEIGHT }]}>
+                {Array.from({ length: STRIPE_COUNT }).map((_, i) => {
+                    const isLong = i % 2 === 1
+                    const H       = isLong ? LONG_HEIGHT : SHORT_HEIGHT
+
+                    return (
+                        <View key={i} style={[styles.stripeWrapper, { height: H }]}>
+                            <Image
+                                source={Runner}
+                                resizeMode="cover"
+                                style={{
+                                    position : 'absolute',
+                                    top      : 0,
+                                    left     : -i * (STRIPE_WIDTH * 0.8),
+                                    width    : STRIPE_WIDTH * STRIPE_COUNT,
+                                    height   : H,
+                                    transform: [{ rotate: '-10deg' }],
+                                }}
+                            />
+                        </View>
+                    )
+                })}
             </View>
 
             <Text style={styles.headline}>
@@ -49,65 +63,53 @@ export default function LandingPage() {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        padding: 24,
-        alignItems: 'center',
-        justifyContent: 'center',
+        flex              : 1,
+        backgroundColor   : '#fff',
+        paddingHorizontal : H_PAD,
+        alignItems        : 'center',
+        justifyContent    : 'center',
     },
-
     stripesContainer: {
-        flexDirection: 'row',
-        marginBottom: 32,
+        width           : CONTAINER_WIDTH,
+        flexDirection   : 'row',
+        justifyContent  : 'space-between',  // ← evenly space each stripe
+        alignItems      : 'center',         // ← vertically center them
+        marginBottom    : 32,
     },
-
     stripeWrapper: {
-        width: STRIPE_WIDTH,
-        height: STRIPE_WIDTH * 2.5,
-        borderRadius: STRIPE_WIDTH / 2,
-        overflow: 'hidden',
-        marginHorizontal: 4,
+        width           : STRIPE_WIDTH,
+        borderRadius    : STRIPE_WIDTH / 2,
+        overflow        : 'hidden',
+        transform       : [{ rotate: '10deg' }],
     },
-
-    image: {
-        position: 'absolute',
-        top: 0,
-        width: STRIPE_WIDTH * STRIPE_COUNT,  // wide enough to span all stripes
-        height: STRIPE_WIDTH * 2.5,
-    },
-
     headline: {
-        fontSize: 16,
-        textAlign: 'center',
-        color: '#333',
+        fontSize   : 16,
+        textAlign  : 'center',
+        color      : '#333',
         marginBottom: 24,
-        lineHeight: 22,
+        lineHeight : 22,
     },
-
     signInButton: {
-        width: '100%',
-        paddingVertical: 14,
-        backgroundColor: '#333',
-        borderRadius: 30,
-        alignItems: 'center',
-        marginBottom: 12,
+        width           : '100%',
+        paddingVertical : 14,
+        backgroundColor : '#333',
+        borderRadius    : 30,
+        alignItems      : 'center',
+        marginBottom    : 12,
     },
-
     signInText: {
-        color: '#fff',
-        fontSize: 16,
+        color    : '#fff',
+        fontSize : 16,
     },
-
     signUpButton: {
-        width: '100%',
-        paddingVertical: 14,
-        backgroundColor: '#4B7FFF',
-        borderRadius: 30,
-        alignItems: 'center',
+        width           : '100%',
+        paddingVertical : 14,
+        backgroundColor : '#4B7FFF',
+        borderRadius    : 30,
+        alignItems      : 'center',
     },
-
     signUpText: {
-        color: '#fff',
-        fontSize: 16,
+        color    : '#fff',
+        fontSize : 16,
     },
 })

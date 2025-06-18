@@ -1,25 +1,31 @@
-import { Stack } from "expo-router";
-import './global.css';
-import {StatusBar} from "react-native";
+// app/_layout.tsx
+import { Stack } from 'expo-router'
+import './global.css'
+import { StatusBar } from 'react-native'
 
 export default function RootLayout() {
-  return (
-      <>
-        <StatusBar hidden={true}/>
-        <Stack>
+    return (
+        <>
+            <StatusBar hidden={true} />
+            <Stack initialRouteName="loading">
+                {/* splash screen */}
+                <Stack.Screen
+                    name="loading"
+                    options={{ headerShown: false }}
+                />
 
-          <Stack.Screen
-              name="(tabs)"
-              options={{headerShown: false}}
-          />
+                {/* your landing page with sign-in / sign-up buttons */}
+                <Stack.Screen
+                    name="index"           // this maps to app/index.tsx
+                    options={{ headerShown: false }}
+                />
 
-          {/*<Stack.Screen*/}
-          {/*    name="movies/[id]"*/}
-          {/*    options={{headerShown: false}}*/}
-          {/*/>*/}
-
-
-        </Stack>
-      </>
-  )
+                {/* other tabs or authenticated routes */}
+                <Stack.Screen
+                    name="(tabs)"
+                    options={{ headerShown: false }}
+                />
+            </Stack>
+        </>
+    )
 }

@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="try to update the profile page">
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/saved.tsx" afterDir="false" />
+    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="try to update logo in saved">
+      <change afterPath="$PROJECT_DIR$/app/auth/Sign-in.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/auth/Sign-up.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/runner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/interface.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/saved.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/saved.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +67,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ken\Desktop\Pacebeats\app\(tabs)" />
+      <recent name="C:\Users\Ken\Desktop\Pacebeats\app" />
+      <recent name="C:\Users\Ken\Desktop\Pacebeats\assets" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats" />
+      <recent name="C:\Users\Ken\Desktop\Pacebeats\app\(tabs)" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -75,7 +89,7 @@
       <updated>1750171867211</updated>
       <workItem from="1750171868578" duration="3305000" />
       <workItem from="1750175311751" duration="3104000" />
-      <workItem from="1750261253607" duration="741000" />
+      <workItem from="1750261253607" duration="5539000" />
     </task>
     <task id="LOCAL-00001" summary="try to update the profile page">
       <option name="closed" value="true" />
@@ -85,14 +99,34 @@
       <option name="project" value="LOCAL" />
       <updated>1750261841804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="try to update logo in saved">
+      <option name="closed" value="true" />
+      <created>1750262033700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750262033700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try to update the profile page" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to update the profile page" />
+    <MESSAGE value="try to update logo in saved" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to update logo in saved" />
   </component>
 </project>

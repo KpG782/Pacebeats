@@ -1,52 +1,42 @@
 import React from 'react';
+import {
+    SafeAreaView,
+    View,
+    Image,
+    StatusBar,
+    StyleSheet,
+} from 'react-native';
 
-const Saved = () => (
-    <div
-        style={{
-            backgroundColor: '#4B7FFF',
-            width: '100vw',
-            height: '100vh',
-            display: 'flex',
-            flexDirection: 'column',
-        }}
-    >
-        {/* status bar */}
-        <div
-            style={{
-                height: '44px',
-                padding: '0 16px',
-                display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                color: '#fff',
-                fontSize: '17px',
-            }}
-        >
-            <span>9:41</span>
-            <div style={{ display: 'flex', alignItems: 'center' }}>
-                {/* replace these with real SVGs or icons */}
-                <span style={{ marginRight: '6px' }}>📶</span>
-                <span style={{ marginRight: '6px' }}>📡</span>
-                <span>🔋</span>
-            </div>
-        </div>
+import Logo from '../../assets/logo1.png';
 
-        {/* logo placeholder */}
-        <div
-            style={{
-                flex: 1,
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-            }}
-        >
-            <img
-                src="/placeholder-logo.png"
-                alt="PaceBeats Logo"
-                style={{ width: '120px', height: 'auto' }}
+const Saved: React.FC = () => (
+    <SafeAreaView style={styles.container}>
+        <StatusBar barStyle="light-content" backgroundColor="#4B7FFF" />
+
+        <View style={styles.logoWrapper}>
+            <Image
+                source={Logo}
+                style={styles.logo}
+                resizeMode="contain"
             />
-        </div>
-    </div>
+        </View>
+    </SafeAreaView>
 );
 
 export default Saved;
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#4B7FFF',
+    },
+    logoWrapper: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    logo: {
+        width: 120,
+        height: 120,
+    },
+});
