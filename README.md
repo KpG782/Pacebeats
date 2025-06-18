@@ -4,25 +4,34 @@ Welcome to **PaceBeats**, a mobile application built using **React Native (Expo)
 
 ---
 
-## 🚀 Getting Started
+## 📥 How to Clone This Project
 
-### 1. Install dependencies
+Follow the steps below to get a local copy of the app running on your machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/KpG782/Pacebeats.git
+cd Pacebeats
+```
+
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Run the app locally
+### 3. Start the Development Server
 
 ```bash
 npx expo start
 ```
 
 You can then launch the app via:
-- 📱 **Expo Go** (scan the QR)
+- 📱 **Expo Go** (scan the QR code)
 - 🤖 **Android Emulator**
 - 🍎 **iOS Simulator**
-- 🔧 **Development build** (recommended for full feature testing)
+- 🔧 **Development build** (for full native access)
 
 ---
 
@@ -55,15 +64,15 @@ PaceBeats/
 
 ---
 
-## 📦 Reset Project
+## 📦 Reset Project (Optional)
 
-To reset to a clean state:
+To reset the app to a clean state:
 
 ```bash
 npm run reset-project
 ```
 
-This moves starter code to `app-example/` and creates a fresh `app/` directory.
+This moves the starter code to `app-example/` and creates a fresh `app/` directory.
 
 ---
 
@@ -77,9 +86,9 @@ This moves starter code to `app-example/` and creates a fresh `app/` directory.
 
 ## 🌐 Connect with Us
 
-- GitHub Repo: [https://github.com/KpG782/pacebeats](https://github.com/KpG782/Pacebeats)
-- LinkedIn: [Ken Patrick Garcia](https://www.linkedin.com/in/ken-patrick-garcia-ba5430285/)
-- Contributors: Ken Garcia, Timothy Forte, Lanz Corpuz, Brian Ashley
+- 🔗 GitHub Repo: [https://github.com/KpG782/Pacebeats](https://github.com/KpG782/Pacebeats)
+- 💼 LinkedIn: [Ken Patrick Garcia](https://www.linkedin.com/in/ken-patrick-garcia-ba5430285/)
+- 👥 Contributors: Ken Garcia, Timothy Forte, Lanz Corpuz, Brian Ashley
 
 ---
 
