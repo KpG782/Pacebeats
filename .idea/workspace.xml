@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="created card component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/Sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-in.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/Sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-up.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <workItem from="1750171868578" duration="3305000" />
       <workItem from="1750175311751" duration="3104000" />
       <workItem from="1750261253607" duration="5687000" />
-      <workItem from="1750323595669" duration="7802000" />
+      <workItem from="1750323595669" duration="8830000" />
     </task>
     <task id="LOCAL-00001" summary="try to update the profile page">
       <option name="closed" value="true" />
