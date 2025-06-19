@@ -3,13 +3,12 @@ import {
     SafeAreaView,
     View,
     Text,
-    Image,
     TouchableOpacity,
     StyleSheet,
     Dimensions,
 } from 'react-native'
 import { useRouter } from 'expo-router'
-import Runner from '../assets/runner.png'
+import StripeCard from '@/components/StripeCard'
 
 const { width } = Dimensions.get('window')
 const H_PAD = 24
@@ -25,33 +24,25 @@ const Index: React.FC = () => {
 
     return (
         <SafeAreaView style={styles.container}>
+            {/* Stripes Section */}
             <View style={[styles.stripesContainer, { height: CONTAINER_HEIGHT }]}>
-                {Array.from({ length: STRIPE_COUNT }).map((_, i) => {
-                    const isLong = i % 2 === 1
-                    const H = isLong ? LONG_HEIGHT : SHORT_HEIGHT
-                    return (
-                        <View key={i} style={[styles.stripeWrapper, { height: H }]}>
-                            <Image
-                                source={Runner}
-                                resizeMode="cover"
-                                style={{
-                                    position: 'absolute',
-                                    top: 0,
-                                    left: -i * (STRIPE_WIDTH * 0.8),
-                                    width: STRIPE_WIDTH * STRIPE_COUNT,
-                                    height: H,
-                                    transform: [{ rotate: '-10deg' }],
-                                }}
-                            />
-                        </View>
-                    )
-                })}
+                {Array.from({ length: STRIPE_COUNT }).map((_, i) => (
+                    <StripeCard
+                        key={i}
+                        index={i}
+                        count={STRIPE_COUNT}
+                        containerWidth={CONTAINER_WIDTH}
+                        containerHeight={CONTAINER_HEIGHT}
+                    />
+                ))}
             </View>
 
+            {/* Headline */}
             <Text style={styles.headline}>
                 Join PaceBeats and turn every step into progress.
             </Text>
 
+            {/* Buttons */}
             <TouchableOpacity
                 style={styles.signInButton}
                 onPress={() => router.push('/auth/Sign-in')}
@@ -83,14 +74,8 @@ const styles = StyleSheet.create({
         width: CONTAINER_WIDTH,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center',
+        alignItems: 'flex-end',
         marginBottom: 32,
-    },
-    stripeWrapper: {
-        width: STRIPE_WIDTH,
-        borderRadius: STRIPE_WIDTH / 2,
-        overflow: 'hidden',
-        transform: [{ rotate: '10deg' }],
     },
     headline: {
         fontSize: 16,
