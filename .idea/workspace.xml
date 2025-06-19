@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="updated sign in and sign up need to work on to" />
+    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="updated sign in and sign up need to work on to">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/Sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-in.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +80,7 @@
       <workItem from="1750175311751" duration="3104000" />
       <workItem from="1750261253607" duration="5687000" />
       <workItem from="1750323595669" duration="8984000" />
+      <workItem from="1750346932301" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="try to update the profile page">
       <option name="closed" value="true" />
