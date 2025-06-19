@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="try to update logo in saved">
-      <change afterPath="$PROJECT_DIR$/components/StripeCard.tsx" afterDir="false" />
+    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="created card component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/Sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-in.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <workItem from="1750171868578" duration="3305000" />
       <workItem from="1750175311751" duration="3104000" />
       <workItem from="1750261253607" duration="5687000" />
-      <workItem from="1750323595669" duration="3518000" />
+      <workItem from="1750323595669" duration="7802000" />
     </task>
     <task id="LOCAL-00001" summary="try to update the profile page">
       <option name="closed" value="true" />
@@ -99,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750262033700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created card component">
+      <option name="closed" value="true" />
+      <created>1750329098358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750329098358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +126,7 @@
     <MESSAGE value="try to update the profile page" />
     <MESSAGE value="update the structure for the" />
     <MESSAGE value="try to update logo in saved" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to update logo in saved" />
+    <MESSAGE value="created card component" />
+    <option name="LAST_COMMIT_MESSAGE" value="created card component" />
   </component>
 </project>
