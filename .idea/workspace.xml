@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="go to index in tab design">
-      <change afterPath="$PROJECT_DIR$/app/health.tsx" afterDir="false" />
+    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="can build with phone and with health connect sample">
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/xml/health_connect_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/Sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-up.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/health.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/health.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +30,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/KpG782/Pacebeats&quot;,
+    &quot;url&quot;: &quot;git@github.com:KpG782/Pacebeats.git&quot;,
     &quot;accountId&quot;: &quot;704e9767-38c6-49f4-bbb0-77d1d90ae944&quot;
   }
 }</component>
@@ -53,13 +55,14 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ken\\Desktop\\Pacebeats\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ken\Desktop\Pacebeats\android\app\src\main\res" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats\app" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats\assets" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats" />
@@ -90,7 +93,8 @@
       <workItem from="1750742798585" duration="562000" />
       <workItem from="1750850392330" duration="2688000" />
       <workItem from="1750857351367" duration="819000" />
-      <workItem from="1750858211733" duration="384000" />
+      <workItem from="1750858211733" duration="3682000" />
+      <workItem from="1750871950348" duration="10042000" />
     </task>
     <task id="LOCAL-00001" summary="try to update the profile page">
       <option name="closed" value="true" />
@@ -132,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750347878409</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="can build with phone and with health connect sample">
+      <option name="closed" value="true" />
+      <created>1750863426341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750863426341</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +178,7 @@
     <MESSAGE value="created card component" />
     <MESSAGE value="updated sign in and sign up need to work on to" />
     <MESSAGE value="go to index in tab design" />
-    <option name="LAST_COMMIT_MESSAGE" value="go to index in tab design" />
+    <MESSAGE value="can build with phone and with health connect sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="can build with phone and with health connect sample" />
   </component>
 </project>

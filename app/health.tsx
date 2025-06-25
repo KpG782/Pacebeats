@@ -1,59 +1,90 @@
-// app/health.tsx
-import { useState } from 'react';
-import { Text, View, Button, ScrollView } from 'react-native';
+// app/Health.tsx
+import React, { useState, useEffect } from 'react';
+import {
+    View,
+    Button,
+    Text,
+    Alert,
+    ScrollView,
+    Linking,
+} from 'react-native';
 import {
     initialize,
     requestPermission,
     readRecords,
-    Permission,
+    type Permission,
 } from 'react-native-health-connect';
 
+// Configure the record types you want to fetch
+const recordConfigs: { recordType: string; label: string }[] = [
+    { recordType: 'Steps', label: 'Steps' },
+    { recordType: 'HeartRate', label: 'Heart Rate' },
+    { recordType: 'Distance', label: 'Distance' },
+    { recordType: 'ActiveCaloriesBurned', label: 'Active Calories' },
+    { recordType: 'SleepSession', label: 'Sleep Sessions' },
+    { recordType: 'Nutrition', label: 'Nutrition' },
+];
+
 export default function HealthScreen() {
-    const [logs, setLogs] = useState<string[]>([]);
+    const [log, setLog] = useState<string[]>([]);
+    // Append messages to log
+    const append = (msg: string) => setLog(prev => [...prev, msg]);
 
-    const append = (msg: string) => setLogs((prev) => [...prev, msg]);
+    // Initialize Health Connect once on mount
+    useEffect(() => {
+        (async () => {
+            append('⚙️ Initializing Health Connect…');
+            const available = await initialize();
+            if (!available) append('❌ Health Connect unavailable');
+            else append('✅ Health Connect initialized');
+        })();
+    }, []);
 
-    const fetchCalories = async () => {
-        append('⚙️ Initializing…');
-        const ready = await initialize();
-        if (!ready) {
-            append('❌ Health Connect not available');
-            return;
+    // Generic fetch for any record type
+    const fetchData = async (recordType: string, label: string) => {
+        append(`🔑 Requesting ${label} permission…`);
+        const perms: Permission[] = [{ accessType: 'read', recordType }];
+        const granted = await requestPermission(perms);
+        if (!granted.some(p => p.recordType === recordType)) {
+            append(`❌ ${label} permission denied`);
+            return Alert.alert(
+                'Permission needed',
+                `Please enable ${label} access in app settings.`,
+                [{ text: 'Open Settings', onPress: () => Linking.openSettings() }]
+            );
         }
 
-        append('🔑 Requesting permission…');
-        const granted: Permission[] = await requestPermission([
-            { accessType: 'read', recordType: 'ActiveCaloriesBurned' },
-        ]);
-        // check by mapping to recordType strings
-        const grantedTypes = granted.map((p) => p.recordType);
-        if (!grantedTypes.includes('ActiveCaloriesBurned')) {
-            append('❌ Permission denied');
-            return;
-        }
-
-        append('⏱ Reading records…');
-        // readRecords returns { records: YourRecordType[] }
-        const { records } = await readRecords('ActiveCaloriesBurned', {
+        append(`⏱ Reading ${label}…`);
+        const now = new Date();
+        const { records } = await readRecords(recordType, {
             timeRangeFilter: {
                 operator: 'between',
-                startTime: new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(), // last 24h
-                endTime: new Date().toISOString(),
+                startTime: new Date(now.getTime() - 24 * 60 * 60 * 1000).toISOString(),
+                endTime: now.toISOString(),
             },
         });
-
-        append(`✅ Got ${records.length} record(s)`);
-        console.log('Calories data:', records);
+        append(`✅ Fetched ${records.length} record(s) of ${label}`);
+        console.log(`${label} records:`, records);
     };
 
     return (
         <View style={{ flex: 1, padding: 16 }}>
-            <Button title="Fetch Calories" onPress={fetchCalories} />
-            <ScrollView style={{ marginTop: 16 }}>
-                {logs.map((l, i) => (
-                    <Text key={i} style={{ marginBottom: 4 }}>
-                        {l}
-                    </Text>
+            {/* Buttons for each data type */}
+            <ScrollView horizontal style={{ marginBottom: 16 }}>
+                {recordConfigs.map(rc => (
+                    <View key={rc.recordType} style={{ marginRight: 8 }}>
+                        <Button
+                            title={`Fetch ${rc.label}`}
+                            onPress={() => fetchData(rc.recordType, rc.label)}
+                        />
+                    </View>
+                ))}
+            </ScrollView>
+
+            {/* Log output */}
+            <ScrollView>
+                {log.map((l, i) => (
+                    <Text key={i} style={{ marginBottom: 4 }}>{l}</Text>
                 ))}
             </ScrollView>
         </View>
