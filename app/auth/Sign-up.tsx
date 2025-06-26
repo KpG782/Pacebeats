@@ -14,12 +14,23 @@ export default function SignUp() {
         router.push('..//(tabs)/saved');
     };
 
+    const goToSetProfile = () => {
+        // Option A: absolute
+        // router.push('/');
+
+        // Option B: relative
+        router.push('/auth/SetProfile');
+    };
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Sign Up Here</Text>
             {/* …your form fields… */}
             <Button title="Go to Home Tabs" onPress={goToIndex} />
+            <Button title="Go to Set Profile" onPress={goToSetProfile} />
+
         </View>
+
     );
 }
 
