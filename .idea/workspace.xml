@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="can build with phone and with health connect sample">
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/xml/health_connect_config.xml" afterDir="false" />
+    <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="working health connect with allow permission (not with fetching data part)">
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth/Sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-up.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/health.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/health.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +31,9 @@
     &quot;accountId&quot;: &quot;704e9767-38c6-49f4-bbb0-77d1d90ae944&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -94,7 +94,9 @@
       <workItem from="1750850392330" duration="2688000" />
       <workItem from="1750857351367" duration="819000" />
       <workItem from="1750858211733" duration="3682000" />
-      <workItem from="1750871950348" duration="10042000" />
+      <workItem from="1750871950348" duration="10712000" />
+      <workItem from="1750910063238" duration="1442000" />
+      <workItem from="1750931952037" duration="3973000" />
     </task>
     <task id="LOCAL-00001" summary="try to update the profile page">
       <option name="closed" value="true" />
@@ -144,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750863426341</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="working health connect with allow permission (not with fetching data part)">
+      <option name="closed" value="true" />
+      <created>1750883404595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750883404595</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +189,7 @@
     <MESSAGE value="updated sign in and sign up need to work on to" />
     <MESSAGE value="go to index in tab design" />
     <MESSAGE value="can build with phone and with health connect sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="can build with phone and with health connect sample" />
+    <MESSAGE value="working health connect with allow permission (not with fetching data part)" />
+    <option name="LAST_COMMIT_MESSAGE" value="working health connect with allow permission (not with fetching data part)" />
   </component>
 </project>
