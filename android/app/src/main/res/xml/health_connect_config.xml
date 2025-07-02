@@ -1,0 +1,26 @@
+<health-connect-configuration xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Steps -->
+    <read-permission  android:name="android.permission.health.READ_STEPS" />
+    <write-permission android:name="android.permission.health.WRITE_STEPS" />
+
+    <!-- Heart Rate -->
+    <read-permission  android:name="android.permission.health.READ_HEART_RATE" />
+    <write-permission android:name="android.permission.health.WRITE_HEART_RATE" />
+
+    <!-- Distance -->
+    <read-permission  android:name="android.permission.health.READ_DISTANCE" />
+    <write-permission android:name="android.permission.health.WRITE_DISTANCE" />
+
+    <!-- Active Calories Burned -->
+    <read-permission  android:name="android.permission.health.READ_ACTIVE_CALORIES_BURNED" />
+    <write-permission android:name="android.permission.health.WRITE_ACTIVE_CALORIES_BURNED" />
+
+    <!-- Sleep Sessions -->
+    <read-permission  android:name="android.permission.health.READ_SLEEP_SESSION" />
+    <write-permission android:name="android.permission.health.WRITE_SLEEP_SESSION" />
+
+    <!-- Nutrition -->
+    <read-permission  android:name="android.permission.health.READ_NUTRITION" />
+    <write-permission android:name="android.permission.health.WRITE_NUTRITION" />
+</health-connect-configuration>
