@@ -6,13 +6,31 @@ interface Props {
     index: number
     count: number
     containerWidth: number
-    containerHeight: number
 }
 
-const StripeCard: React.FC<Props> = ({ index, count, containerWidth, containerHeight }) => {
+// 1) The exact Figma artboard size you measured
+const DESIGN_WIDTH = 740.22
+const DESIGN_HEIGHT = 533.47
+
+// 2) Aspect ratio of artboard
+const DESIGN_RATIO = DESIGN_HEIGHT / DESIGN_WIDTH
+
+// 3) Measured “short” stripe height in Figma (e.g. you saw one of the small bars was 400px tall)
+const SHORT_DESIGN_HEIGHT = 400
+const SHORT_RATIO = SHORT_DESIGN_HEIGHT / DESIGN_HEIGHT
+
+const StripeCard: React.FC<Props> = ({ index, count, containerWidth }) => {
+    // derive containerHeight from containerWidth
+    const containerHeight = containerWidth * DESIGN_RATIO
+
+    // evenly for n stripes with gaps
     const stripeWidth = containerWidth / (count + 1)
-    const longHeight = containerHeight
-    const shortHeight = stripeWidth * 2.5
+
+    // full-height and short-height in px
+    const longHeight  = containerHeight
+    const shortHeight = containerHeight * SHORT_RATIO
+
+    // alternate tall/short
     const height = index % 2 === 1 ? longHeight : shortHeight
 
     return (
@@ -31,6 +49,7 @@ const StripeCard: React.FC<Props> = ({ index, count, containerWidth, containerHe
                 style={{
                     position: 'absolute',
                     top: 0,
+                    // pan the image under each stripe so it slides smoothly
                     left: -index * (stripeWidth * 0.8),
                     width: stripeWidth * count,
                     height,

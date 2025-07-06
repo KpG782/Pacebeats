@@ -11,7 +11,7 @@ export default function SignUp() {
         // router.push('/');
 
         // Option B: relative
-        router.push('..//(tabs)/saved');
+        router.push('..//(tabs)');
     };
 
     const goToSetProfile = () => {

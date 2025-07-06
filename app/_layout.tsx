@@ -25,6 +25,14 @@ export default function RootLayout() {
                     name="(tabs)"
                     options={{ headerShown: false }}
                 />
+
+
+                {/* other tabs or authenticated routes */}
+                <Stack.Screen
+                    name="auth"
+                    options={{ headerShown: false }}
+                />
+
             </Stack>
         </>
     )

@@ -9,7 +9,7 @@ import {
 
 import Logo from '../../assets/logo1.png';
 
-const Saved: React.FC = () => (
+const Activity: React.FC = () => (
     <SafeAreaView style={styles.container}>
         <StatusBar barStyle="light-content" backgroundColor="#4B7FFF" />
 
@@ -23,7 +23,7 @@ const Saved: React.FC = () => (
     </SafeAreaView>
 );
 
-export default Saved;
+export default Activity;
 
 const styles = StyleSheet.create({
     container: {

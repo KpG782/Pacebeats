@@ -5,6 +5,7 @@ import { useRouter } from 'expo-router'
 
 // ← correct relative path (no leading slash)
 import Logo from '../assets/logo1.png'
+import {LinearGradient} from "expo-linear-gradient";
 
 export default function LoadingScreen() {
     const router = useRouter()
@@ -19,13 +20,13 @@ export default function LoadingScreen() {
 
     return (
         <SafeAreaView style={styles.container}>
-            <View style={styles.logoContainer}>
+            <LinearGradient colors={['#1E1E1E', '#0D0D0D']} style={styles.logoContainer} className={"justify-center items-center flex-1"}>
                 <Image
                     source={Logo}
                     style={styles.logo}
                     resizeMode="contain"
                 />
-            </View>
+            </LinearGradient>
         </SafeAreaView>
     )
 }
@@ -33,7 +34,7 @@ export default function LoadingScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#3F4ED3',
+        backgroundColor: '#0D0D0D',
     },
     logoContainer: {
         flex: 1,

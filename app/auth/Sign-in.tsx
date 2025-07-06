@@ -7,24 +7,22 @@ import {
     TextInput,
     TouchableOpacity,
     StyleSheet,
-    Dimensions,
 } from 'react-native'
 import { FontAwesome, FontAwesome5 } from '@expo/vector-icons'
 
 import Logo from '../../assets/logo1.png'
-import {router} from "expo-router";
-
-const { width, height } = Dimensions.get('window')
+import Button from "@/components/auth/Button";
+import TextBox from "@/components/auth/TextBox";
+import Title from "@/components/auth/Title";
 
 const SignIn: React.FC = () => {
     return (
-        <SafeAreaView style={styles.container}>
+        <SafeAreaView className={"flex-1 bg-primary-dark justify-center items-center p-6"}>
             {/* Logo */}
             <Image source={Logo} style={styles.logo} resizeMode="contain" />
 
             {/* Title */}
-            <Text style={styles.title}>Sign in your account</Text>
-
+            <Title/>
             {/* Inputs */}
             <View style={styles.inputContainer}>
                 <TextInput
@@ -33,17 +31,16 @@ const SignIn: React.FC = () => {
                     keyboardType="email-address"
                     autoCapitalize="none"
                 />
-                <TextInput
-                    style={styles.input}
-                    placeholder="Password"
-                    secureTextEntry
-                />
+                <TextBox/>
             </View>
 
             {/* Sign-in Button */}
-            <TouchableOpacity style={styles.signInButton}>
-                <Text  onPress={() => router.push('//(tabs)/index')} style={styles.signInText}>Sign-in</Text>
-            </TouchableOpacity>
+            <Button
+                label={'Sign-In'}
+                to={"/(tabs)"}
+                className={"w-full h-[56px] rounded-3xl justify-center items-center bg-secondary mb-7"}
+                textClassName={"font-bold text-white border-r-[20px]]"}
+            />
 
             {/* Social Login */}
             <Text style={styles.orText}>or sign in with</Text>
@@ -62,22 +59,9 @@ const SignIn: React.FC = () => {
 export default SignIn
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#F0F0F0',
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingHorizontal: 24,
-    },
     logo: {
         width: 80,
         height: 80,
-        marginBottom: 24,
-    },
-    title: {
-        fontSize: 20,
-        fontWeight: '600',
-        color: '#000',
         marginBottom: 24,
     },
     inputContainer: {

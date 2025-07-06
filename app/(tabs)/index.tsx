@@ -1,6 +1,7 @@
 import {Button, Text, View} from "react-native";
 import "../global.css";
 import {useRouter} from 'expo-router';
+import {LinearGradient} from 'expo-linear-gradient';
 
 export default function Index() {
     const router = useRouter();
@@ -11,7 +12,7 @@ export default function Index() {
     };
 
     return (
-    <View className={"justify-center items-center"}>
+    <LinearGradient colors={['#1E1E1E', '#0D0D0D']} className={"justify-center items-center flex-1"}>
       <Text className={"text-blue-500"}>Welcome</Text>
         <View className={"flex flex-row w-full"}>
             <Button
@@ -19,6 +20,6 @@ export default function Index() {
                 onPress={goToHealth}
             />
         </View>
-    </View>
+    </LinearGradient>
   );
 }
