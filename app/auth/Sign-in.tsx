@@ -13,6 +13,7 @@ import { FontAwesome, FontAwesome5 } from '@expo/vector-icons'
 
 import Logo from '../../assets/logo1.png'
 import {router} from "expo-router";
+import {Tabs} from "expo-router";
 
 const { width, height } = Dimensions.get('window')
 
@@ -41,8 +42,11 @@ const SignIn: React.FC = () => {
             </View>
 
             {/* Sign-in Button */}
-            <TouchableOpacity style={styles.signInButton}>
-                <Text  onPress={() => router.push('//(tabs)/index')} style={styles.signInText}>Sign-in</Text>
+            <TouchableOpacity
+                style={styles.signInButton}
+                onPress={() => router.replace('/(tabs)')}
+            >
+                <Text style={styles.signInText}>Sign-in</Text>
             </TouchableOpacity>
 
             {/* Social Login */}
