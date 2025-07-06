@@ -5,32 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="working health connect with allow permission (not with fetching data part)">
-      <change afterPath="$PROJECT_DIR$/app/auth/_layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/TextBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/Title.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/auth/Back.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/auth/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/auth/SocialButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/appwrite.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/saved.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/activity.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/search.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/auth/Sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-in.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/auth/Sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-up.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/onboarding/onboarding1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/onboarding/onboarding1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StripeCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StripeCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/TextBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/TextBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/Title.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
-    <list id="f4096eaa-b92c-455c-9e77-3c6518316f74" name="Changes by lnzcr" comment="">
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-    </list>
+    <list id="f4096eaa-b92c-455c-9e77-3c6518316f74" name="Changes by lnzcr" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,22 +43,6 @@
     &quot;accountId&quot;: &quot;704e9767-38c6-49f4-bbb0-77d1d90ae944&quot;
   }
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/app/(tabs)/_layout.tsx">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="1" changelist="f4096eaa-b92c-455c-9e77-3c6518316f74" />
-        <range start1="5" end1="7" start2="5" end2="35" changelist="f4096eaa-b92c-455c-9e77-3c6518316f74" />
-        <range start1="32" end1="33" start2="60" end2="65" changelist="f4096eaa-b92c-455c-9e77-3c6518316f74" />
-        <range start1="40" end1="45" start2="72" end2="80" changelist="f4096eaa-b92c-455c-9e77-3c6518316f74" />
-        <range start1="46" end1="49" start2="81" end2="81" changelist="f4096eaa-b92c-455c-9e77-3c6518316f74" />
-        <range start1="56" end1="64" start2="88" end2="104" changelist="f4096eaa-b92c-455c-9e77-3c6518316f74" />
-        <range start1="69" end1="70" start2="109" end2="110" changelist="f4096eaa-b92c-455c-9e77-3c6518316f74" />
-        <range start1="71" end1="80" start2="111" end2="129" changelist="f4096eaa-b92c-455c-9e77-3c6518316f74" />
-        <range start1="84" end1="98" start2="133" end2="133" changelist="692ea492-45cc-4efb-872a-27a2089ce606" />
-        <range start1="100" end1="108" start2="135" end2="151" changelist="692ea492-45cc-4efb-872a-27a2089ce606" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -84,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "sign-in/signout-ken",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/Ken/Desktop/Pacebeats/assets",
     "node.js.detected.package.eslint": "true",
@@ -103,11 +79,11 @@
       <recent name="C:\Users\Ken\Desktop\Pacebeats\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ken\Desktop\Pacebeats" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats\components\auth" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats\android\app\src\main\res" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats\app" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats\assets" />
-      <recent name="C:\Users\Ken\Desktop\Pacebeats" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -142,7 +118,10 @@
       <workItem from="1751696976260" duration="587000" />
       <workItem from="1751716745626" duration="11408000" />
       <workItem from="1751745340066" duration="3296000" />
-      <workItem from="1751780167246" duration="4787000" />
+      <workItem from="1751780167246" duration="5444000" />
+      <workItem from="1751785716749" duration="377000" />
+      <workItem from="1751792771417" duration="1259000" />
+      <workItem from="1751797034519" duration="13003000" />
     </task>
     <task id="LOCAL-00001" summary="try to update the profile page">
       <option name="closed" value="true" />
