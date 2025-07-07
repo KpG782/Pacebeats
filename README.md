@@ -124,6 +124,18 @@ This moves the starter code to `app-example/` and creates a fresh `app/` directo
 - 💼 LinkedIn: [Ken Patrick Garcia](https://www.linkedin.com/in/ken-patrick-garcia-ba5430285/)
 - 👥 Contributors: Ken Garcia, Timothy Forte, Lanz Corpuz, Brian Ashley
 
+
+---
+
+
+👥 Team Members
+- 🦸‍♂️ Ken Patrick Garcia — Project Leader / Full Stack Developer
+- 🎨 Timothy Forte — Frontend UI
+- 💻 Lanz Corpuz — Frontend Developer
+- 🔧 Brian Papa — Backend Developer
+
+---
+
 ---
 
 ## 🧠 License
