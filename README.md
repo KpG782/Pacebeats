@@ -4,6 +4,40 @@ Welcome to **PaceBeats**, a mobile application built using **React Native (Expo)
 
 ---
 
+## 🎧 What Is PaceBeats and How It Works
+
+PaceBeats is a React Native app that reads your steps, GPS and heart rate in real time and uses a hybrid AI-inspired algorithm to pick the perfect tracks for your run:
+
+1. Calibration  
+   - Run a fixed distance (eg. 20 m) to compute your stride length.
+
+2. Sensor Input  
+   - Every interval, read step count delta, GPS distance delta and current heart rate.
+
+3. Pace Computation  
+   - raw_pace = seconds elapsed ÷ (meters covered ÷ 1000) → sec/km  
+   - if GPS jump <10 m, fall back on steps × stride_length.
+
+4. Smoothing  
+   - Feed raw_pace into a 1D Kalman filter to remove jitter and get smooth_pace.
+
+5. Bucket Mapping  
+   - Convert smooth_pace to minutes/km  
+   - Assign to one of six buckets: easy_walk, recovery, cruise, tempo, interval, sprint.
+
+6. Nearest-BPM Recommendation  
+   - For current bucket, compute |track.bpm − bucket_center| for all tracks  
+   - Sort by bpm_diff and pick top 5.
+
+7. Playback & Logging  
+   - Show titles, BPM, duration; let runner select or auto-play best match  
+   - Log timestamp, raw and smooth pace, bucket, heart rate, track info to CSV.
+
+That’s it. No fluff, just your pace feeding straight into your playlist. Download, clone, install and let PaceBeats handle the rest.  
+
+
+---
+
 ## 📥 How to Clone This Project
 
 Follow the steps below to get a local copy of the app running on your machine.
