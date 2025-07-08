@@ -6,6 +6,8 @@
   Default (dark mode) variables: dark background, white text
   "light-mode" class will switch to light theme
 */
+
+
 @layer base {
     :root {
         --font-primary: 'Roboto', sans-serif;
@@ -21,8 +23,10 @@
 
     /* Apply variables globally */
     html, body {
-        font-family: var(--font-primary);
         background-color: var(--bg-primary);
         color: var(--text-primary);
+    }
+    Text {
+        @apply font-poppins;
     }
 }

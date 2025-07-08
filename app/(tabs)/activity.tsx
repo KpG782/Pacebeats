@@ -1,42 +1,55 @@
-import React from 'react';
-import {
-    SafeAreaView,
-    View,
-    Image,
-    StatusBar,
-    StyleSheet,
-} from 'react-native';
 
-import Logo from '../../assets/logo1.png';
+import React from 'react'
+import { View, Text, Button, StyleSheet, Alert } from 'react-native'
+import { useRouter } from 'expo-router'
+import { createFileRecord } from '@/services/appwrite'  // only import the document creation helper
 
-const Activity: React.FC = () => (
-    <SafeAreaView style={styles.container}>
-        <StatusBar barStyle="light-content" backgroundColor="#4B7FFF" />
+export default function Activity() {
+    const router = useRouter()
 
-        <View style={styles.logoWrapper}>
-            <Image
-                source={Logo}
-                style={styles.logo}
-                resizeMode="contain"
-            />
+    const goToIndex = () => {
+        router.push('..//(tabs)')
+    }
+
+    const goToSetProfile = () => {
+        router.push('/auth/SetProfile')
+    }
+
+    // Create a new file record in Appwrite
+    const handleCreateFile = async () => {
+        try {
+            const doc = await createFileRecord(`file-${Date.now()}.txt`)
+            Alert.alert('✅ File Record Created', JSON.stringify(doc, null, 2))
+        } catch (err: any) {
+            Alert.alert('❌ Create failed', err.message || 'Unknown error')
+        }
+    }
+
+    return (
+        <View style={styles.container}>
+            <Text style={styles.title}>Sign Up Here</Text>
+            {/* …your form fields… */}
+
+            <Button title="Go to Home Tabs" onPress={goToIndex} />
+            <Button title="Go to Set Profile" onPress={goToSetProfile} />
+
+            {/* Create File Record */}
+            <View style={{ marginTop: 24, width: '100%' }}>
+                <Button title="Create File Record" onPress={handleCreateFile} />
+            </View>
         </View>
-    </SafeAreaView>
-);
-
-export default Activity;
+    )
+}
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#4B7FFF',
-    },
-    logoWrapper: {
-        flex: 1,
+        padding: 16,
         justifyContent: 'center',
         alignItems: 'center',
     },
-    logo: {
-        width: 120,
-        height: 120,
+    title: {
+        fontSize: 24,
+        marginBottom: 24,
     },
-});
+})

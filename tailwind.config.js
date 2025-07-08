@@ -35,8 +35,10 @@ module.exports = {
       },
       fontFamily: {
         primary: ["Roboto", "sans-serif"],
-        poppins: ['Poppins_400Regular'],   // default weight
-        'poppins-bold': ['Poppins_700Bold']
+        poppins: ['Poppins_400Regular', 'sans-serif'],
+        'poppins-medium': ['Poppins_500Medium', 'sans-serif'],
+        'poppins-semibold': ['Poppins_600SemiBold', 'sans-serif'],
+        'poppins-bold': ['Poppins_700Bold', 'sans-serif'],
       },
     },
   },
