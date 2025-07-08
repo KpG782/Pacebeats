@@ -1,8 +1,20 @@
 # 🎧 PaceBeats — Adaptive Music Recommender for Runners
 
+<img src="https://img.shields.io/badge/React%20Native-Expo-blue?style=flat-square" alt="Expo" /> <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="MIT License" />
+
 Welcome to **PaceBeats**, a mobile application built using **React Native (Expo)** that dynamically recommends music based on your running pace and heartbeat. Powered by real-time IoT integration and hybrid recommendation algorithms, PaceBeats enhances your workout experience by syncing the perfect beat to your stride. 🏃‍♂️❤️🎶
 
 ---
+
+
+### Prerequisites
+- **Visual Studio Code/ Webstorm** for IDEs  
+- **Expo CLI** (`npm install -g expo-cli`)  
+- Android Studio or Xcode (for emulators)  
+- Galaxy Watch 5, 6, 7 or Smartwatch with HealthConnect
+
+---
+
 
 ## 🎧 What Is PaceBeats and How It Works
 
