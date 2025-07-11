@@ -6,8 +6,12 @@
    <uses-permission android:name="android.permission.health.WRITE_HEART_RATE"/>
    <!-- etc. -->
 
+   <!-- Google Fit-->
+   <uses-permission android:name="android.permission.BODY_SENSORS" />
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-  <!-- Your existing permissions -->
+
+   <!-- Your existing permissions -->
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>

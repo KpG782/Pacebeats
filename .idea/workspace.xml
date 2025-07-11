@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="692ea492-45cc-4efb-872a-27a2089ce606" name="Changes" comment="working health connect with allow permission (not with fetching data part)">
-      <change afterPath="$PROJECT_DIR$/assets/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/Back.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/auth/SocialButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/appwrite.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/auth/Terms.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/auth/Checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/activity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/activity.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/auth/Sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-in.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/auth/Sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/Sign-up.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/auth/TextBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/TextBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/SocialButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/SocialButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/auth/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/Title.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -60,9 +59,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "sign-in/signout-ken",
+    "git-widget-placeholder": "ken-signup",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Ken/Desktop/Pacebeats/assets",
+    "last_opened_file_path": "C:/Users/Ken/Desktop/Pacebeats/app/auth",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ken\Desktop\Pacebeats\app\auth" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats\assets" />
       <recent name="C:\Users\Ken\Desktop\Pacebeats\components" />
     </key>
@@ -122,6 +122,7 @@
       <workItem from="1751785716749" duration="377000" />
       <workItem from="1751792771417" duration="1259000" />
       <workItem from="1751797034519" duration="13003000" />
+      <workItem from="1751977677393" duration="16505000" />
     </task>
     <task id="LOCAL-00001" summary="try to update the profile page">
       <option name="closed" value="true" />
@@ -239,6 +240,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/(tabs)/profile.tsx</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/(tabs)/activity.tsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
