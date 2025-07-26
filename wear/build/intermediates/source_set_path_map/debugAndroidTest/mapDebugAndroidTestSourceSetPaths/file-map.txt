@@ -1,0 +1,4 @@
+com.samsung.health.hrdatatransfer.test.wear-androidTest-0 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\wear\build\generated\res\resValues\androidTest\debug
+com.samsung.health.hrdatatransfer.test.wear-mergeDebugAndroidTestResources-1 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\wear\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.samsung.health.hrdatatransfer.test.wear-mergeDebugAndroidTestResources-2 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\wear\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.samsung.health.hrdatatransfer.test.wear-debugAndroidTest-3 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\wear\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
