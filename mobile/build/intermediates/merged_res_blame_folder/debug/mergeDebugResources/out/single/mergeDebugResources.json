@@ -1,58 +1,150 @@
 [
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable-xhdpi_ic_content_picture.png.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable-xhdpi/ic_content_picture.png"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable_wp3.xml.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable/wp3.xml"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable-hdpi_ic_content_picture.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable-hdpi\\ic_content_picture.png"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/font_spacemono_regular.ttf.flat",
-        "source": "com.samsung.health.mobile-main-52:/font/spacemono_regular.ttf"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\font_spacemono_regular.ttf.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\font\\spacemono_regular.ttf"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable-hdpi_ic_content_picture.png.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable-hdpi/ic_content_picture.png"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable-mdpi_ic_content_picture.png.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable-mdpi/ic_content_picture.png"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable-hdpi_ic_launcher.png.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable-xxhdpi_ic_content_picture.png.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable-xxhdpi/ic_content_picture.png"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/font_plusjakartasans_regular.ttf.flat",
-        "source": "com.samsung.health.mobile-main-52:/font/plusjakartasans_regular.ttf"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/font_montserrat_regular.ttf.flat",
-        "source": "com.samsung.health.mobile-main-52:/font/montserrat_regular.ttf"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable_wp2.xml.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable/wp2.xml"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable\\logo.png"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable-mdpi_ic_launcher.png.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\font_plusjakartasans_regular.ttf.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\font\\plusjakartasans_regular.ttf"
     },
     {
-        "merged": "com.samsung.health.mobile-debug-50:/drawable_wp1.xml.flat",
-        "source": "com.samsung.health.mobile-main-52:/drawable/wp1.xml"
+        "merged": "com.samsung.health.mobile-debug-50:/drawable_check_mark.png.flat",
+        "source": "com.samsung.health.mobile-main-52:/drawable/check_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable-mdpi_ic_content_picture.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable-mdpi\\ic_content_picture.png"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable_wp2.xml.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable\\wp2.xml"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable-xhdpi_ic_content_picture.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable-xhdpi\\ic_content_picture.png"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable-xxhdpi_ic_content_picture.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable-xxhdpi\\ic_content_picture.png"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable_google.xml.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable\\google.xml"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\font_montserrat_regular.ttf.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\font\\montserrat_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable_email_open.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable\\email_open.png"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable_spotify.xml.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable\\spotify.xml"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable_wp3.xml.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable\\wp3.xml"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\drawable_wp1.xml.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\drawable\\wp1.xml"
+    },
+    {
+        "merged": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-debug-50:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lnzcr\\.gradle\\daemon\\8.4\\com.samsung.health.mobile-main-52:\\mipmap-hdpi\\ic_launcher_round.webp"
     }
 ]

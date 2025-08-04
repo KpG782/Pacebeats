@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import androidx.activity.ComponentActivity;
+import androidx.activity.SystemBarStyle;
 import dagger.hilt.android.AndroidEntryPoint;
 
 @dagger.hilt.android.AndroidEntryPoint

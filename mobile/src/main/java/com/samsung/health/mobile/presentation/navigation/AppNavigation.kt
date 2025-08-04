@@ -7,10 +7,14 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.samsung.health.mobile.presentation.ui.Slide
 import com.samsung.health.mobile.presentation.ui.WelcomeScreen
-import com.samsung.health.mobile.presentation.ui.auth.SignInScreen
-import com.samsung.health.mobile.presentation.ui.auth.SignUpScreen
 import com.samsung.health.mobile.presentation.ui.MainScreen
 import com.samsung.health.data.TrackedData
+import com.samsung.health.mobile.presentation.ui.auth.signIn.LoginPage
+import com.samsung.health.mobile.presentation.ui.auth.signUp.LoginPage
+import com.samsung.health.mobile.presentation.ui.auth.signUp.EmailVerification
+import com.samsung.health.mobile.presentation.ui.auth.signUp.EmailVerification2
+import com.samsung.health.mobile.presentation.ui.accountCreation.ProfileSetup
+
 
 @Composable
 fun AppNavigation() {
@@ -34,7 +38,7 @@ fun AppNavigation() {
             )
         }
         composable(Routes.SignIn) {
-            SignInScreen(
+            LoginPage(
                 navController      = navController,
                 onSignedIn         = { navController.navigate(Routes.Heartbeat) },
                 onNavigateToSignUp = { navController.navigate(Routes.SignUp) }
@@ -42,13 +46,33 @@ fun AppNavigation() {
         }
 
         composable(Routes.SignUp) {
-            SignUpScreen(
+            LoginPage(
                 navController        = navController,
                 onSignedUp           = { navController.navigate(Routes.Heartbeat) },
-                onNavigateToSignIn   = { navController.navigate(Routes.SignIn) }
+                onNavigateToSignIn   = { navController.navigate(Routes.SignIn) },
+                emailVerification    = { navController.navigate(Routes.SignUp2)}
             )
         }
 
+        composable(Routes.SignUp2) {
+            EmailVerification(
+                navController = navController,
+                emailVerification2   = {navController.navigate(Routes.SignUp3)}
+            )
+        }
+
+        composable(Routes.SignUp3) {
+            EmailVerification2(
+                navController = navController,
+                profileSetup   = {navController.navigate(Routes.AccountCreation)}
+            )
+        }
+
+        composable(Routes.AccountCreation) {
+            ProfileSetup(
+                navController = navController
+            )
+        }
 
         composable(Routes.Heartbeat) {
             MainScreen(

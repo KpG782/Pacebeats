@@ -92,6 +92,7 @@ int dimen notification_small_icon_size_as_large 0x7f060012
 int dimen notification_subtext_size 0x7f060013
 int dimen notification_top_pad 0x7f060014
 int dimen notification_top_pad_large_text 0x7f060015
+int drawable check_mark 0x7f070032
 int drawable common_full_open_on_phone 0x7f070000
 int drawable common_google_signin_btn_icon_dark 0x7f070001
 int drawable common_google_signin_btn_icon_dark_focused 0x7f070002
@@ -111,6 +112,8 @@ int drawable common_google_signin_btn_text_light 0x7f07000f
 int drawable common_google_signin_btn_text_light_focused 0x7f070010
 int drawable common_google_signin_btn_text_light_normal 0x7f070011
 int drawable common_google_signin_btn_text_light_normal_background 0x7f070012
+int drawable email_open 0x7f070031
+int drawable google 0x7f07002e
 int drawable googleg_disabled_color_18 0x7f070013
 int drawable googleg_standard_color_18 0x7f070014
 int drawable ic_call_answer 0x7f070015
@@ -121,6 +124,8 @@ int drawable ic_call_decline 0x7f070019
 int drawable ic_call_decline_low 0x7f07001a
 int drawable ic_content_picture 0x7f07001b
 int drawable ic_launcher 0x7f07001c
+int drawable ic_launcher_background 0x7f070030
+int drawable logo 0x7f07002d
 int drawable notification_action_background 0x7f07001d
 int drawable notification_bg 0x7f07001e
 int drawable notification_bg_low 0x7f07001f
@@ -134,6 +139,7 @@ int drawable notification_template_icon_bg 0x7f070026
 int drawable notification_template_icon_low_bg 0x7f070027
 int drawable notification_tile_bg 0x7f070028
 int drawable notify_panel_notification_icon_bg 0x7f070029
+int drawable spotify 0x7f07002f
 int drawable wp1 0x7f07002a
 int drawable wp2 0x7f07002b
 int drawable wp3 0x7f07002c
@@ -251,6 +257,9 @@ int layout notification_template_custom_big 0x7f0b0005
 int layout notification_template_icon_group 0x7f0b0006
 int layout notification_template_part_chronometer 0x7f0b0007
 int layout notification_template_part_time 0x7f0b0008
+int mipmap ic_launcher 0x7f0f0000
+int mipmap ic_launcher_foreground 0x7f0f0001
+int mipmap ic_launcher_round 0x7f0f0002
 int string androidx_startup 0x7f0c0000
 int string app_name 0x7f0c0001
 int string call_notification_answer_action 0x7f0c0002
