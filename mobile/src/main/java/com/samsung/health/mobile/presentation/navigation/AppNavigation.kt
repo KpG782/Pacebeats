@@ -10,10 +10,13 @@ import com.samsung.health.mobile.presentation.ui.WelcomeScreen
 import com.samsung.health.mobile.presentation.ui.MainScreen
 import com.samsung.health.data.TrackedData
 import com.samsung.health.mobile.presentation.ui.auth.signIn.LoginPage
+import com.samsung.health.mobile.presentation.ui.auth.signIn.PasswordSuccessful
 import com.samsung.health.mobile.presentation.ui.auth.signUp.LoginPage
 import com.samsung.health.mobile.presentation.ui.auth.signUp.EmailVerification
 import com.samsung.health.mobile.presentation.ui.auth.signUp.EmailVerification2
 import com.samsung.health.mobile.presentation.ui.accountCreation.ProfileSetup
+import com.samsung.health.mobile.presentation.ui.auth.signIn.ForgetPassword
+import com.samsung.health.mobile.presentation.ui.main.Homepage
 
 
 @Composable
@@ -41,7 +44,22 @@ fun AppNavigation() {
             LoginPage(
                 navController      = navController,
                 onSignedIn         = { navController.navigate(Routes.Heartbeat) },
-                onNavigateToSignUp = { navController.navigate(Routes.SignUp) }
+                onNavigateToSignUp = { navController.navigate(Routes.SignUp) },
+                passwordSuccessful = { navController.navigate(Routes.SignIn2) },
+                homePage           = { navController.navigate(Routes.Homepage) },
+                forgetPassword     = { navController.navigate(Routes.ForgetPassword) }
+            )
+        }
+
+        composable(Routes.SignIn2) {
+            PasswordSuccessful(
+                navController = navController,
+            )
+        }
+
+        composable(Routes.ForgetPassword) {
+            ForgetPassword(
+                navController = navController,
             )
         }
 
@@ -71,6 +89,12 @@ fun AppNavigation() {
         composable(Routes.AccountCreation) {
             ProfileSetup(
                 navController = navController
+            )
+        }
+
+        composable(Routes.Homepage) {
+            Homepage(
+                navController = navController,
             )
         }
 

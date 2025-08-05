@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
@@ -24,7 +25,10 @@ import com.samsung.health.mobile.R
 fun LoginPage(
     navController: NavHostController,       // ← add this!
     onSignedIn: () -> Unit,
-    onNavigateToSignUp: () -> Unit
+    onNavigateToSignUp: () -> Unit,
+    passwordSuccessful: () -> Unit,
+    homePage: () -> Unit,
+    forgetPassword: () -> Unit
 ) {
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
@@ -101,19 +105,25 @@ fun LoginPage(
 
         // ← Forgot password
         TextButton(
-            onClick = { /* TODO */ },
+            onClick = forgetPassword,
             modifier = Modifier
                 .align(Alignment.End)
                 .padding(horizontal = 26.dp),
         ) {
-            Text("Forgot password?", style = MaterialTheme.typography.bodySmall)
+            Text(
+                text = "Forgot password?",
+                fontWeight = FontWeight.Medium,
+                fontSize = 12.sp,
+                color = Color(0xFF7B7B7B),
+                textAlign = TextAlign.Center
+            )
         }
 
         Spacer(modifier = Modifier.height(32.dp))
 
         // ← Sign in button
         Button(
-            onClick = onSignedIn,
+            onClick = homePage,
             modifier = Modifier
                 .fillMaxWidth()
                 .height(56.dp)
