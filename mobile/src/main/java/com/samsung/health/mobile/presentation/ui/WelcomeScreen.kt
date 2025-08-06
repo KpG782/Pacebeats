@@ -2,6 +2,7 @@
 package com.samsung.health.mobile.presentation.ui
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -11,9 +12,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
@@ -50,7 +51,7 @@ fun WelcomeScreen(
             Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .background(MaterialTheme.colorScheme.primaryContainer),
+                    .background(MaterialTheme.colorScheme.background),
                 contentAlignment = Alignment.Center
             ) {
                 Column(
@@ -73,6 +74,21 @@ fun WelcomeScreen(
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
+                    Spacer(Modifier.height(24.dp))
+                    Button(
+                        onClick = { navController.navigate(Routes.Heartbeat) },
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(20.dp),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.tertiaryContainer,
+                            contentColor   = MaterialTheme.colorScheme.onTertiary
+                        )
+                    ) {
+                        Text(
+                            "Go to Heartbeat",
+                            style = MaterialTheme.typography.labelLarge
+                        )
+                    }
                 }
             }
         }
@@ -82,13 +98,15 @@ fun WelcomeScreen(
             modifier = Modifier
                 .weight(1f)
                 .fillMaxWidth()
-                .padding(24.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
+                .padding(26.dp),
+            verticalArrangement = Arrangement.spacedBy(32.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Button(
                 onClick = { navController.navigate(Routes.SignUp) },
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(56.dp),
                 shape = RoundedCornerShape(20.dp),
                 colors = ButtonDefaults.buttonColors(
                     containerColor = MaterialTheme.colorScheme.primary,
@@ -97,37 +115,26 @@ fun WelcomeScreen(
             ) {
                 Text(
                     "Sign up for free",
-                    style = MaterialTheme.typography.labelLarge
+                    style = MaterialTheme.typography.bodyLarge
                 )
             }
 
             Button(
                 onClick = { navController.navigate(Routes.SignIn) },
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(56.dp)
+                    .border(1.dp, Color.Black, shape = RoundedCornerShape(20.dp)),
                 shape = RoundedCornerShape(20.dp),
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = MaterialTheme.colorScheme.secondaryContainer,
-                    contentColor   = MaterialTheme.colorScheme.onSecondary
+                    containerColor = MaterialTheme.colorScheme.onPrimary,
+                    contentColor   = Color(0xFF0050C7),
                 )
             ) {
                 Text(
                     "Sign in",
-                    style = MaterialTheme.typography.labelLarge
-                )
-            }
+                    style = MaterialTheme.typography.bodyLarge
 
-            Button(
-                onClick = { navController.navigate(Routes.Heartbeat) },
-                modifier = Modifier.fillMaxWidth(),
-                shape = RoundedCornerShape(20.dp),
-                colors = ButtonDefaults.buttonColors(
-                    containerColor = MaterialTheme.colorScheme.tertiaryContainer,
-                    contentColor   = MaterialTheme.colorScheme.onTertiary
-                )
-            ) {
-                Text(
-                    "Go to Heartbeat",
-                    style = MaterialTheme.typography.labelLarge
                 )
             }
         }

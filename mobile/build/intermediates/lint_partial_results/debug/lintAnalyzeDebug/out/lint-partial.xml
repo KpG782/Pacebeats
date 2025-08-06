@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.samsung.health.mobile.presentation.MainActivity"
+                    boolean="true"/>
+                <entry
+                    name="com.samsung.health.mobile.data.DataListenerService"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.hr_unit"
+            file="${:mobile*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="6"
+            column="13"
+            startOffset="201"
+            endLine="6"
+            endColumn="27"
+            endOffset="215"/>
+        <entry
+            name="model"
+            string="array[android_wear_capabilities(U)],drawable[ic_launcher(U),wp1(D),wp2(D),wp3(D),ic_content_picture(D)],string[app_name(U),ibi_name(U),ibi_unit(D),hr_name(U),hr_unit(D)];;@array/android_wear_capabilities,@array/android_wear_capabilities;;"/>
+        <location id="R.drawable.ic_content_picture"
+            file="${:mobile*debug*MAIN*sourceProvider*0*resDir*0}/drawable-hdpi/ic_content_picture.png"/>
+        <location id="R.string.ibi_unit"
+            file="${:mobile*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="120"
+            endLine="4"
+            endColumn="28"
+            endOffset="135"/>
+        <location id="R.drawable.wp3"
+            file="${:mobile*debug*MAIN*sourceProvider*0*resDir*0}/drawable/wp3.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="9"
+            endColumn="10"
+            endOffset="297"/>
+        <location id="R.drawable.wp2"
+            file="${:mobile*debug*MAIN*sourceProvider*0*resDir*0}/drawable/wp2.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="9"
+            endColumn="10"
+            endOffset="297"/>
+        <location id="R.drawable.wp1"
+            file="${:mobile*debug*MAIN*sourceProvider*0*resDir*0}/drawable/wp1.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="9"
+            endColumn="10"
+            endOffset="297"/>
+    </map>
+
+</incidents>
