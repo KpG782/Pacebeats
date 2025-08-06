@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.samsung.health.hrdatatransfer.wear-mergeDebugResources-56:/values-da/values-da.xml",
+            "outputFile": "com.samsung.health.hrdatatransfer.wear-mergeDebugResources-58:/values-da/values-da.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\87ef08de9c9c4fc78601cfc0670afbee\\transformed\\ui-release\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,277,372,471,553,630,719,808,890,955,1020,1101,1185,1255,1333,1400",
+                        "endColumns": "91,79,94,98,81,76,88,88,81,64,64,80,83,69,77,66,119",
+                        "endOffsets": "192,272,367,466,548,625,714,803,885,950,1015,1096,1180,1250,1328,1395,1515"
+                    },
+                    "to": {
+                        "startLines": "48,49,68,69,70,74,75,132,133,134,135,137,138,140,142,143,144",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4437,4529,6811,6906,7005,7310,7387,11831,11920,12002,12067,12212,12293,12457,12628,12706,12773",
+                        "endColumns": "91,79,94,98,81,76,88,88,81,64,64,80,83,69,77,66,119",
+                        "endOffsets": "4524,4604,6901,7000,7082,7382,7471,11915,11997,12062,12127,12288,12372,12522,12701,12768,12888"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\c3f96eadc350f0befa599caf93f4a1b7\\transformed\\appcompat-1.6.1\\res\\values-da\\values-da.xml",
                     "from": {
@@ -35,23 +52,6 @@
                         "startOffsets": "4609,4715,4875,5002,5111,5254,5379,5499,5731,5887,5993,6155,6282,6427,6605,6671,6733",
                         "endColumns": "105,159,126,108,142,124,119,104,155,105,161,126,144,177,65,61,77",
                         "endOffsets": "4710,4870,4997,5106,5249,5374,5494,5599,5882,5988,6150,6277,6422,6600,6666,6728,6806"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\f1776bcdfd9e6359f271d272bbe1076e\\transformed\\ui-release\\res\\values-da\\values-da.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,197,277,372,471,553,630,719,808,890,955,1020,1101,1185,1255,1333,1400",
-                        "endColumns": "91,79,94,98,81,76,88,88,81,64,64,80,83,69,77,66,119",
-                        "endOffsets": "192,272,367,466,548,625,714,803,885,950,1015,1096,1180,1250,1328,1395,1515"
-                    },
-                    "to": {
-                        "startLines": "48,49,68,69,70,74,75,132,133,134,135,137,138,140,142,143,144",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4437,4529,6811,6906,7005,7310,7387,11831,11920,12002,12067,12212,12293,12457,12628,12706,12773",
-                        "endColumns": "91,79,94,98,81,76,88,88,81,64,64,80,83,69,77,66,119",
-                        "endOffsets": "4524,4604,6901,7000,7082,7382,7471,11915,11997,12062,12127,12288,12372,12522,12701,12768,12888"
                     }
                 },
                 {
@@ -89,7 +89,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\a555cdffbbe1f06e78ace091f31cfb85\\transformed\\foundation-release\\res\\values-da\\values-da.xml",
+                    "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\de8919a592ccf0fc0f5d8ef0734669e8\\transformed\\foundation-release\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

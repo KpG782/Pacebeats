@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.samsung.health.hrdatatransfer.wear-mergeDebugResources-56:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.samsung.health.hrdatatransfer.wear-mergeDebugResources-58:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\c3f96eadc350f0befa599caf93f4a1b7\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",

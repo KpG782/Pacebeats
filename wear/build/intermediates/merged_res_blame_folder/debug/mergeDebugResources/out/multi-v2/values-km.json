@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.samsung.health.hrdatatransfer.wear-mergeDebugResources-56:/values-km/values-km.xml",
+            "outputFile": "com.samsung.health.hrdatatransfer.wear-mergeDebugResources-58:/values-km/values-km.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\38e54cf6d4182f6e397be796b67db82f\\transformed\\play-services-base-18.0.1\\res\\values-km\\values.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "4577,4679,4834,4955,5060,5222,5346,5467,5725,5883,6000,6171,6296,6441,6599,6663,6721",
                         "endColumns": "101,154,120,104,161,123,120,108,157,116,170,124,144,157,63,57,76",
                         "endOffsets": "4674,4829,4950,5055,5217,5341,5462,5571,5878,5995,6166,6291,6436,6594,6658,6716,6793"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\f1776bcdfd9e6359f271d272bbe1076e\\transformed\\ui-release\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,190,270,374,472,560,644,727,812,899,964,1029,1109,1194,1270,1354,1420",
-                        "endColumns": "84,79,103,97,87,83,82,84,86,64,64,79,84,75,83,65,117",
-                        "endOffsets": "185,265,369,467,555,639,722,807,894,959,1024,1104,1189,1265,1349,1415,1533"
-                    },
-                    "to": {
-                        "startLines": "48,49,68,69,70,74,75,132,133,134,135,137,138,140,142,143,144",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4412,4497,6798,6902,7000,7317,7401,11987,12072,12159,12224,12372,12452,12621,12798,12882,12948",
-                        "endColumns": "84,79,103,97,87,83,82,84,86,64,64,79,84,75,83,65,117",
-                        "endOffsets": "4492,4572,6897,6995,7083,7396,7479,12067,12154,12219,12284,12447,12532,12692,12877,12943,13061"
                     }
                 },
                 {
@@ -91,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\a555cdffbbe1f06e78ace091f31cfb85\\transformed\\foundation-release\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\de8919a592ccf0fc0f5d8ef0734669e8\\transformed\\foundation-release\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -122,6 +105,23 @@
                         "startOffsets": "3399,3494,3597,3695,3795,3896,4008,12697",
                         "endColumns": "94,102,97,99,100,111,111,100",
                         "endOffsets": "3489,3592,3690,3790,3891,4003,4115,12793"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ken\\.gradle\\caches\\transforms-3\\87ef08de9c9c4fc78601cfc0670afbee\\transformed\\ui-release\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,190,270,374,472,560,644,727,812,899,964,1029,1109,1194,1270,1354,1420",
+                        "endColumns": "84,79,103,97,87,83,82,84,86,64,64,79,84,75,83,65,117",
+                        "endOffsets": "185,265,369,467,555,639,722,807,894,959,1024,1104,1189,1265,1349,1415,1533"
+                    },
+                    "to": {
+                        "startLines": "48,49,68,69,70,74,75,132,133,134,135,137,138,140,142,143,144",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4412,4497,6798,6902,7000,7317,7401,11987,12072,12159,12224,12372,12452,12621,12798,12882,12948",
+                        "endColumns": "84,79,103,97,87,83,82,84,86,64,64,79,84,75,83,65,117",
+                        "endOffsets": "4492,4572,6897,6995,7083,7396,7479,12067,12154,12219,12284,12447,12532,12692,12877,12943,13061"
                     }
                 }
             ]

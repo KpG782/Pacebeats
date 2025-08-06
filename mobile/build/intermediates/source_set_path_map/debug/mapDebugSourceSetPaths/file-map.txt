@@ -44,10 +44,10 @@ com.samsung.health.mobile-lifecycle-viewmodel-compose-2.6.2-42 C:\Users\Ken\.gra
 com.samsung.health.mobile-lifecycle-viewmodel-2.6.2-43 C:\Users\Ken\.gradle\caches\transforms-3\dbefce83e94e1f63986cc829cd601aa7\transformed\lifecycle-viewmodel-2.6.2\res
 com.samsung.health.mobile-ui-release-44 C:\Users\Ken\.gradle\caches\transforms-3\e51c649d9f4e452148fccc9d26631837\transformed\ui-release\res
 com.samsung.health.mobile-activity-1.9.0-45 C:\Users\Ken\.gradle\caches\transforms-3\e7194ecc5ad934260570d799102d3552\transformed\activity-1.9.0\res
-com.samsung.health.mobile-pngs-46 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\build\generated\res\pngs\debug
-com.samsung.health.mobile-resValues-47 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\build\generated\res\resValues\debug
-com.samsung.health.mobile-packageDebugResources-48 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.samsung.health.mobile-packageDebugResources-49 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.samsung.health.mobile-debug-50 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\build\intermediates\merged_res\debug\mergeDebugResources
-com.samsung.health.mobile-debug-51 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\debug\res
-com.samsung.health.mobile-main-52 C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\res
+com.samsung.health.mobile-pngs-46 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\generated\res\pngs\debug
+com.samsung.health.mobile-resValues-47 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\generated\res\resValues\debug
+com.samsung.health.mobile-packageDebugResources-48 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.samsung.health.mobile-packageDebugResources-49 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.samsung.health.mobile-debug-50 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\intermediates\merged_res\debug\mergeDebugResources
+com.samsung.health.mobile-debug-51 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\debug\res
+com.samsung.health.mobile-main-52 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\res

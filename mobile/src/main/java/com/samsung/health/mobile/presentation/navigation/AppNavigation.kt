@@ -1,4 +1,3 @@
-// mobile/src/main/java/com/samsung/health/mobile/presentation/navigation/AppNavigation.kt
 package com.samsung.health.mobile.presentation.navigation
 
 import androidx.compose.runtime.Composable
@@ -11,9 +10,11 @@ import com.samsung.health.mobile.presentation.ui.auth.SignInScreen
 import com.samsung.health.mobile.presentation.ui.auth.SignUpScreen
 import com.samsung.health.mobile.presentation.ui.MainScreen
 import com.samsung.health.data.TrackedData
+import com.samsung.health.mobile.presentation.ui.StepCounterView
+import com.samsung.health.mobile.presentation.ui.GpsTrackingView
 
 @Composable
-fun AppNavigation() {
+fun AppNavigation(results: List<TrackedData>) {
     val navController = rememberNavController()
 
     // The three onboarding slides
@@ -49,11 +50,17 @@ fun AppNavigation() {
             )
         }
 
-
         composable(Routes.Heartbeat) {
             MainScreen(
-                results = emptyList<TrackedData>()
+                results = results,
+                navController = navController
             )
+        }
+        composable(Routes.StepCounter) {
+            StepCounterView()
+        }
+        composable(Routes.GpsTracking) {
+            GpsTrackingView()
         }
     }
 }

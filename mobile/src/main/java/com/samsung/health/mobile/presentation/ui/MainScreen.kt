@@ -24,6 +24,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
+import androidx.compose.material3.Button
+import androidx.compose.material3.Text
+import androidx.navigation.NavController
+import com.samsung.health.mobile.presentation.navigation.Routes
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -32,7 +36,8 @@ import com.samsung.health.data.TrackedData
 
 @Composable
 fun MainScreen(
-    results: List<TrackedData>
+    results: List<TrackedData>,
+    navController: NavController? = null
 ) {
     Column(
         modifier = Modifier
@@ -47,6 +52,14 @@ fun MainScreen(
                 .fillMaxWidth()
                 .background(Color.Black)
         )
+        Button(onClick = { navController?.navigate(Routes.StepCounter) }) {
+            Text("Go to Step Counter")
+        }
+        Spacer(modifier = Modifier.height(16.dp))
+        Button(onClick = { navController?.navigate(Routes.GpsTracking) }) {
+            Text("Go to GPS Tracking")
+        }
+        Spacer(modifier = Modifier.height(16.dp))
         ListView(results)
     }
 }

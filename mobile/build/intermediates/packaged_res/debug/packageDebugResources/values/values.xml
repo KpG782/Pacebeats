@@ -3,7 +3,7 @@
     <string-array name="android_wear_capabilities">
         <item>wear</item>
     </string-array>
-    <string name="app_name">HRDataTransfer</string>
+    <string name="app_name">Pacebeats</string>
     <string name="hr_name">HR</string>
     <string name="hr_unit">bpm</string>
     <string name="ibi_name">IBI</string>

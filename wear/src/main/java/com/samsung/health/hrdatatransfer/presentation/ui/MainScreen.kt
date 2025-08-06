@@ -34,6 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.wear.compose.material.*
 import com.samsung.health.hrdatatransfer.R
+import com.samsung.health.hrdatatransfer.presentation.MainViewModel
 import com.samsung.health.hrdatatransfer.presentation.theme.HRDataTransferTheme
 
 private const val TAG = "MainScreen"
@@ -50,11 +51,12 @@ fun MainScreen(
     valueIBI: ArrayList<Int>,
     onStart: () -> Unit,
     onStop: () -> Unit,
-    onSend: () -> Unit
+    onSend: () -> Unit,
+    viewModel: MainViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
 ) {
     Log.i(TAG, "MainScreen Composable")
     HRDataTransferTheme {
-        val pagerState = rememberPagerState(pageCount = { 2 }) // 2 pages
+        val pagerState = rememberPagerState(pageCount = { 3 }) // 3 pages
 
         HorizontalPager(state = pagerState) { page ->
             when (page) {
@@ -70,7 +72,8 @@ fun MainScreen(
                     onStop = onStop,
                     onSend = onSend
                 )
-                1 -> ImpressivePage()
+                1 -> StepsPage(viewModel)
+                2 -> ImpressivePage()
             }
         }
     }
@@ -221,7 +224,6 @@ fun ShowConnectionMessage(
         ShowToast(connectionMessage)
     }
 }
-
 @Composable
 fun ShowToast(message: String) {
     makeText(LocalContext.current, message, Toast.LENGTH_SHORT).show()

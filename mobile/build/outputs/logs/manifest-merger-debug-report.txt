@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [com.google.accompanist:accompanist-pager-indicators:0.30.1] C:\Users\Ken\.gradle\caches\transforms-3\0a9bdbea558aa5a9edef53102457410e\transformed\accompanist-pager-indicators-0.30.1\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.accompanist:accompanist-pager:0.30.1] C:\Users\Ken\.gradle\caches\transforms-3\a3a497131bd7938cf51946bd7011eebb\transformed\accompanist-pager-0.30.1\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.dagger:hilt-android:2.48] C:\Users\Ken\.gradle\caches\transforms-3\ca7e9dae647683357bc6ec66f24b65cf\transformed\hilt-android-2.48\AndroidManifest.xml:16:1-19:12
@@ -66,20 +66,24 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Ken\.gradle\caches\transfo
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ken\.gradle\caches\transforms-3\c9c57b5c5b0d2b99ddf6cedeb1be67d4\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.48] C:\Users\Ken\.gradle\caches\transforms-3\6bba50a8fcdc3f1c6e96878ee1922f10\transformed\dagger-lint-aar-2.48\AndroidManifest.xml:16:1-19:12
 	package
-		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:2:11-69
 	tools:ignore
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:4:5-45
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:4:5-45
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:6:5-42:19
-INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:6:5-42:19
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:8:5-45:19
+INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:8:5-45:19
 MERGED from [com.google.android.gms:play-services-wearable:18.1.0] C:\Users\Ken\.gradle\caches\transforms-3\a62dde698f14d3799276363c36359a71\transformed\play-services-wearable-18.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-wearable:18.1.0] C:\Users\Ken\.gradle\caches\transforms-3\a62dde698f14d3799276363c36359a71\transformed\play-services-wearable-18.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Ken\.gradle\caches\transforms-3\38e54cf6d4182f6e397be796b67db82f\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
@@ -101,85 +105,85 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ken\.gra
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ken\.gradle\caches\transforms-3\13685a823251f8ca2bc4aed199ff75a4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ken\.gradle\caches\transforms-3\13685a823251f8ca2bc4aed199ff75a4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\Ken\.gradle\caches\transforms-3\9f13eee0ef2741c46a439bf97372be5b\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:10:9-45
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:12:9-45
 	android:allowBackup
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:10:9-35
 	android:fullBackupOnly
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:9:9-38
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:11:9-38
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:7:9-59
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:9:9-59
 service#com.samsung.health.mobile.data.DataListenerService
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:12:9-28:19
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:14:9-31:19
 	android:exported
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:14:13-36
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:13:13-78
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:15:13-78
 intent-filter#action:name:com.google.android.gms.wearable.CAPABILITY_CHANGED+action:name:com.google.android.gms.wearable.CHANNEL_EVENT+action:name:com.google.android.gms.wearable.DATA_CHANGED+action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+action:name:com.google.android.gms.wearable.REQUEST_RECEIVED+data:host:*+data:pathPrefix:/msg+data:scheme:wear
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:16:13-27:29
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:18:13-30:29
 action#com.google.android.gms.wearable.DATA_CHANGED
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:17:17-87
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:20:17-87
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:17:25-84
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:20:25-84
 action#com.google.android.gms.wearable.MESSAGE_RECEIVED
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:18:17-91
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:21:17-91
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:18:25-88
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:21:25-88
 action#com.google.android.gms.wearable.REQUEST_RECEIVED
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:19:17-91
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:22:17-91
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:19:25-88
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:22:25-88
 action#com.google.android.gms.wearable.CAPABILITY_CHANGED
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:20:17-93
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:23:17-93
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:20:25-90
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:23:25-90
 action#com.google.android.gms.wearable.CHANNEL_EVENT
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:21:17-88
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:24:17-88
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:21:25-85
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:24:25-85
 data
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:23:17-26:45
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:26:17-29:45
 	android:host
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:24:21-37
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:27:21-37
 	android:scheme
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:26:21-42
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:29:21-42
 	android:pathPrefix
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:25:21-46
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:28:21-46
 activity#com.samsung.health.mobile.presentation.MainActivity
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:29:9-41:20
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:32:9-44:20
 	android:screenOrientation
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:34:13-49
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:37:13-49
 	android:launchMode
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:33:13-44
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:36:13-44
 	android:exported
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:32:13-36
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:35:13-36
 	tools:ignore
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:36:13-42
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:39:13-42
 	android:configChanges
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:31:13-63
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:34:13-63
 	android:theme
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:35:13-77
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:38:13-77
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:30:13-79
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:33:13-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:37:13-40:29
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:40:13-43:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:38:17-69
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:38:25-66
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:39:17-77
+ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml:39:27-74
+		ADDED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml:42:27-74
 uses-sdk
-INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml
 MERGED from [com.google.accompanist:accompanist-pager-indicators:0.30.1] C:\Users\Ken\.gradle\caches\transforms-3\0a9bdbea558aa5a9edef53102457410e\transformed\accompanist-pager-indicators-0.30.1\AndroidManifest.xml:21:5-23:42
 MERGED from [com.google.accompanist:accompanist-pager-indicators:0.30.1] C:\Users\Ken\.gradle\caches\transforms-3\0a9bdbea558aa5a9edef53102457410e\transformed\accompanist-pager-indicators-0.30.1\AndroidManifest.xml:21:5-23:42
 MERGED from [com.google.accompanist:accompanist-pager:0.30.1] C:\Users\Ken\.gradle\caches\transforms-3\a3a497131bd7938cf51946bd7011eebb\transformed\accompanist-pager-0.30.1\AndroidManifest.xml:21:5-23:42
@@ -303,11 +307,11 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ken\.gradle\caches\
 MERGED from [com.google.dagger:dagger-lint-aar:2.48] C:\Users\Ken\.gradle\caches\transforms-3\6bba50a8fcdc3f1c6e96878ee1922f10\transformed\dagger-lint-aar-2.48\AndroidManifest.xml:18:3-42
 MERGED from [com.google.dagger:dagger-lint-aar:2.48] C:\Users\Ken\.gradle\caches\transforms-3\6bba50a8fcdc3f1c6e96878ee1922f10\transformed\dagger-lint-aar-2.48\AndroidManifest.xml:18:3-42
 	android:targetSdkVersion
-		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml
 	tools:ignore
 		ADDED from [com.google.accompanist:accompanist-pager-indicators:0.30.1] C:\Users\Ken\.gradle\caches\transforms-3\0a9bdbea558aa5a9edef53102457410e\transformed\accompanist-pager-indicators-0.30.1\AndroidManifest.xml:23:9-39
 	android:minSdkVersion
-		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin)\mobile\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\src\main\AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Ken\.gradle\caches\transforms-3\38e54cf6d4182f6e397be796b67db82f\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 	android:exported

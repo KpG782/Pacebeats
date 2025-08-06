@@ -39,6 +39,7 @@ import dagger.hilt.android.internal.lifecycle.DefaultViewModelFactories;
 import dagger.hilt.android.internal.lifecycle.DefaultViewModelFactories_InternalFactoryFactory_Factory;
 import dagger.hilt.android.internal.managers.ActivityRetainedComponentManager_LifecycleModule_ProvideActivityRetainedLifecycleFactory;
 import dagger.hilt.android.internal.modules.ApplicationContextModule;
+import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideApplicationFactory;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideContextFactory;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
@@ -488,7 +489,7 @@ public final class DaggerTheApp_HiltComponents_SingletonC {
       public T get() {
         switch (id) {
           case 0: // com.samsung.health.hrdatatransfer.presentation.MainViewModel 
-          return (T) viewModelCImpl.injectMainViewModel(MainViewModel_Factory.newInstance(viewModelCImpl.makeConnectionToHealthTrackingServiceUseCase(), viewModelCImpl.sendMessageUseCase(), viewModelCImpl.stopTrackingUseCase(), viewModelCImpl.areTrackingCapabilitiesAvailableUseCase()));
+          return (T) viewModelCImpl.injectMainViewModel(MainViewModel_Factory.newInstance(viewModelCImpl.makeConnectionToHealthTrackingServiceUseCase(), viewModelCImpl.sendMessageUseCase(), viewModelCImpl.stopTrackingUseCase(), viewModelCImpl.areTrackingCapabilitiesAvailableUseCase(), ApplicationContextModule_ProvideApplicationFactory.provideApplication(singletonCImpl.applicationContextModule)));
 
           default: throw new AssertionError(id);
         }
