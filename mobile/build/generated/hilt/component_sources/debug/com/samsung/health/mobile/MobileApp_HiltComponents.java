@@ -1,6 +1,7 @@
 package com.samsung.health.mobile;
 
 import com.samsung.health.mobile.presentation.MainActivity_GeneratedInjector;
+import com.samsung.health.mobile.presentation.viewmodel.HeartbeatViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -141,6 +142,7 @@ public final class MobileApp_HiltComponents {
 
   @Subcomponent(
       modules = {
+          HeartbeatViewModel_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class
@@ -178,7 +180,10 @@ public final class MobileApp_HiltComponents {
   }
 
   @Subcomponent(
-      modules = HiltWrapper_HiltViewModelFactory_ViewModelModule.class
+      modules = {
+          HeartbeatViewModel_HiltModules.BindsModule.class,
+          HiltWrapper_HiltViewModelFactory_ViewModelModule.class
+      }
   )
   @ViewModelScoped
   public abstract static class ViewModelC implements ViewModelComponent,

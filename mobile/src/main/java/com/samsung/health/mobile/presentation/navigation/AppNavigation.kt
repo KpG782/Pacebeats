@@ -1,4 +1,3 @@
-// mobile/src/main/java/com/samsung/health/mobile/presentation/navigation/AppNavigation.kt
 package com.samsung.health.mobile.presentation.navigation
 
 import androidx.compose.runtime.Composable
@@ -8,19 +7,20 @@ import androidx.navigation.compose.rememberNavController
 import com.samsung.health.mobile.presentation.ui.Slide
 import com.samsung.health.mobile.presentation.ui.WelcomeScreen
 import com.samsung.health.mobile.presentation.ui.MainScreen
+import com.samsung.health.mobile.presentation.ui.StepCounterView
+import com.samsung.health.mobile.presentation.ui.GpsTrackingView
 import com.samsung.health.data.TrackedData
 import com.samsung.health.mobile.presentation.ui.auth.signIn.LoginPage
 import com.samsung.health.mobile.presentation.ui.auth.signIn.PasswordSuccessful
-import com.samsung.health.mobile.presentation.ui.auth.signUp.LoginPage
+import com.samsung.health.mobile.presentation.ui.auth.signUp.LoginPage as SignUpLoginPage
 import com.samsung.health.mobile.presentation.ui.auth.signUp.EmailVerification
 import com.samsung.health.mobile.presentation.ui.auth.signUp.EmailVerification2
 import com.samsung.health.mobile.presentation.ui.accountCreation.ProfileSetup
 import com.samsung.health.mobile.presentation.ui.auth.signIn.ForgetPassword
 import com.samsung.health.mobile.presentation.ui.main.Homepage
 
-
 @Composable
-fun AppNavigation() {
+fun AppNavigation(heartbeatData: List<TrackedData> = emptyList()) {
     val navController = rememberNavController()
 
     // The three onboarding slides
@@ -40,6 +40,7 @@ fun AppNavigation() {
                 slides        = slides
             )
         }
+        
         composable(Routes.SignIn) {
             LoginPage(
                 navController      = navController,
@@ -64,7 +65,7 @@ fun AppNavigation() {
         }
 
         composable(Routes.SignUp) {
-            LoginPage(
+            SignUpLoginPage(
                 navController        = navController,
                 onSignedUp           = { navController.navigate(Routes.Heartbeat) },
                 onNavigateToSignIn   = { navController.navigate(Routes.SignIn) },
@@ -100,8 +101,17 @@ fun AppNavigation() {
 
         composable(Routes.Heartbeat) {
             MainScreen(
-                results = emptyList<TrackedData>()
+                results = heartbeatData,
+                navController = navController
             )
+        }
+
+        composable(Routes.StepCounter) {
+            StepCounterView()
+        }
+
+        composable(Routes.GpsTracking) {
+            GpsTrackingView()
         }
     }
 }
