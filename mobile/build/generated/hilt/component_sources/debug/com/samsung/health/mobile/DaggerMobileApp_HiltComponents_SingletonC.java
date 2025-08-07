@@ -520,7 +520,7 @@ public final class DaggerMobileApp_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectMobileApp(MobileApp mobileApp) {
+    public void injectMobileApp(MobileApp arg0) {
     }
 
     @Override
