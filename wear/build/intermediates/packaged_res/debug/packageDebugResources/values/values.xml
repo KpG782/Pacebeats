@@ -2,7 +2,7 @@
 <resources>
     <string name="PERMISSION_ERROR">No required permissions</string>
     <string name="SDK_POLICY_ERROR">Policy error, enable Developer Mode</string>
-    <string name="app_name">HRDataTransfer</string>
+    <string name="app_name">Pacebeats</string>
     <string name="error_initial_state">Initial HR state</string>
     <string name="error_low_ppg_signal">Low PPG signal, try not to move</string>
     <string name="error_low_ppg_signal_even_more">Low PPG signal, try not to move</string>

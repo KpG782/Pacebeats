@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.samsung.health.hrdatatransfer.MessageEncodingUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-29T07:18:18" hostname="MSI_CORPUZ" time="0.349">
-  <properties/>
-  <testcase name="encoding_isCorrect2" classname="com.samsung.health.hrdatatransfer.MessageEncodingUnitTest" time="0.347"/>
-  <testcase name="encoding_isCorrect" classname="com.samsung.health.hrdatatransfer.MessageEncodingUnitTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

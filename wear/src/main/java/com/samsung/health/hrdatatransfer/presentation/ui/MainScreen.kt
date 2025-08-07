@@ -37,7 +37,6 @@ import com.samsung.health.hrdatatransfer.R
 import com.samsung.health.hrdatatransfer.presentation.theme.HRDataTransferTheme
 
 private const val TAG = "MainScreen"
-
 @OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
 @Composable
 fun MainScreen(
@@ -54,7 +53,7 @@ fun MainScreen(
 ) {
     Log.i(TAG, "MainScreen Composable")
     HRDataTransferTheme {
-        val pagerState = rememberPagerState(pageCount = { 2 }) // 2 pages
+        val pagerState = rememberPagerState(pageCount = { 3 }) // Changed to 3 pages
 
         HorizontalPager(state = pagerState) { page ->
             when (page) {
@@ -70,7 +69,8 @@ fun MainScreen(
                     onStop = onStop,
                     onSend = onSend
                 )
-                1 -> ImpressivePage()
+                1 -> StepsScreen() // Add this
+                2 -> ImpressivePage() // Changed from 1 to 2
             }
         }
     }

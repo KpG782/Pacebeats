@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.samsung.health.hrdatatransfer.DataLayerCapabilitiesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-29T07:18:12" hostname="MSI_CORPUZ" time="5.471">
-  <properties/>
-  <testcase name="caps_isCorrect" classname="com.samsung.health.hrdatatransfer.DataLayerCapabilitiesTest" time="5.397"/>
-  <testcase name="caps_isCorrect2" classname="com.samsung.health.hrdatatransfer.DataLayerCapabilitiesTest" time="0.074"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

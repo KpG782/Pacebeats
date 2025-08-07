@@ -15,7 +15,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "HRDataTransfer"
+rootProject.name = "Pacebeats"
 include ':mobile'
 include ':wear'
 include ':common'

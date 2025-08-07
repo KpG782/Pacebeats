@@ -1,0 +1,4 @@
+com.samsung.health.mobile.test.mobile-androidTest-0 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\generated\res\resValues\androidTest\debug
+com.samsung.health.mobile.test.mobile-mergeDebugAndroidTestResources-1 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.samsung.health.mobile.test.mobile-mergeDebugAndroidTestResources-2 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.samsung.health.mobile.test.mobile-debugAndroidTest-3 C:\Users\Ken\Downloads\Pacebeats(Kotlin) - steps ry\mobile\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

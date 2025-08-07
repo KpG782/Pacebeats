@@ -9,16 +9,34 @@
         android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.BODY_SENSORS" />
 
+    <uses-feature android:name="android.hardware.type.watch" />
+    <!-- Required for step counting -->
+    <!-- Required permissions for step tracking -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Hardware features -->
+    <uses-feature
+        android:name="android.hardware.sensor.stepcounter"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.stepdetector"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
     <uses-feature android:name="android.hardware.type.watch" />
 
     <queries>
+        <package android:name="com.sec.android.app.shealth" />
         <package android:name="com.sec.android.app.samsungapps" />
-    </queries>
-    <queries>
         <package android:name="com.samsung.android.service.health" />
+        <package android:name="com.google.android.wearable.healthservices" />
     </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.samsung.health.hrdatatransfer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -35,6 +53,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@android:style/Theme.DeviceDefault" >
         <uses-library
             android:name="com.google.android.wearable"
@@ -67,6 +86,15 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="androidx.health.services.client.VersionApiService"
+            android:exported="true"
+            android:permission="com.google.android.wearable.healthservices.permission.PASSIVE_DATA_BINDING" >
+            <intent-filter>
+                <action android:name="hs.versionclient.BIND" />
+            </intent-filter>
+        </service>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
