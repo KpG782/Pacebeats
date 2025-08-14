@@ -244,3 +244,4 @@ limitations under the License.
 > Built with 💓 by passionate developers and runners, powered by modern Android development practices and Samsung's innovative health ecosystem.
 
 **Made with ❤️ in the Philippines 🇵🇭**
+

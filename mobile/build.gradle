@@ -20,12 +20,7 @@ android {
     buildFeatures {
         compose true
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -40,6 +35,22 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+signingConfigs {
+    release {
+        storeFile file("../keystore/pacebeats-release-v3.jks") // update path if needed
+        storePassword 'd9$Kf7!pVhLm2@QxR4&Zt1#W'
+        keyAlias "pacebeats_release_v3"
+        keyPassword 'd9$Kf7!pVhLm2@QxR4&Zt1#W' // Use store password for both!
+    }
+}
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
     }
 }
 

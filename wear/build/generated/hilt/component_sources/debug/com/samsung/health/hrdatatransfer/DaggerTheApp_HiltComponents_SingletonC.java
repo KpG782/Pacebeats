@@ -620,7 +620,7 @@ public final class DaggerTheApp_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectTheApp(TheApp theApp) {
+    public void injectTheApp(TheApp arg0) {
     }
 
     @Override
